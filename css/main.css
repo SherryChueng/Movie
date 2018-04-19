@@ -1,0 +1,325 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+body {
+  background-color: #2d3d54;
+}
+
+.title {
+  font-family: Futura LT ExtraBold;
+  font-size: 80px;
+  color: #ffa300;
+  padding: 15px 0 10px 10px;
+  text-align: center;
+}
+.navigation {
+  color: #999999;
+  background-color: #1c2d42;
+  font-size: 20px;
+  font-family: Futura LT Medium;
+  text-align: center;
+  padding: 0 0 0 0;
+}
+li {
+  display: inline-block;
+  padding: 8px 60px 8px 60px;
+}
+a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.nowplaying {
+  font-family: Futura LT ExtraBold;
+  font-size: 30px;
+  color: #ffa300;
+  margin-left: 30px;
+  padding: 50px 0 2px 45px;
+}
+h2 {
+  font-size: 15px;
+  font-family: Futura LT Medium;
+  margin: 0;
+  line-height: 1.6;
+  color: #999999;
+}
+
+.bt1 {
+  font-size: 15px;
+  font-family: Futura LT Medium;
+  margin: auto;
+  line-height: 1.6;
+  background-color: #ffa300;
+  color: #2d3d54;
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+.second1 {
+  padding: 30px;
+  margin-left: 45px;
+  border: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.second2 {
+  padding: 30px;
+  margin: auto;
+  border: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.second3 {
+  padding: 30px;
+  margin: auto;
+  border: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.second4 {
+  padding: 30px;
+  margin: auto;
+  border: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.second5 {
+  padding: 30px;
+  margin: auto;
+  border: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.test {
+  line-height: 1.6;
+}
+.test {
+  color: magenta;
+  transition: all 1s ease-out;
+}
+
+.test:hover {
+  color: cyan;
+}
+
+.nd {
+  font-family: sans-serif;
+  padding: 50px;
+}
+.nd {
+  font-size: 10vw;
+  color: blue;
+  margin: 0;
+}
+.nd {
+  line-height: 1.6;
+}
+@keyframes fadeAndMove {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+.nd {
+  animation-name: multi-fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 400ms;
+  animation-iteration-count: 2;
+}
+
+/* Second page */
+.secondpage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.showtime {
+  font-family: Futura LT ExtraBold;
+  font-size: 20px;
+  text-align: center;
+  color: #ffa300;
+  margin-left: 30px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.infotitle {
+  font-family: Futura LT ExtraBold;
+  font-size: 40px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 15px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.timeinfo {
+  font-family: Futura LT Medium;
+  font-size: 20px;
+  text-align: left;
+  color: #999999;
+  margin-left: 15px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.location {
+  font-family: Futura LT ExtraBold;
+  font-size: 30px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.All {
+  display: inline-flex;
+  grid-gap: 10px;
+  width: 1000px;
+}
+
+.real {
+  font-family: Futura LT Medium;
+  font-size: 25px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.detail {
+  color: #999999;
+  font-size: 20px;
+  font-family: Futura LT Medium;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.bt2 {
+  font-size: 15px;
+  font-family: Futura LT Medium;
+  margin-left: 60px;
+  margin-top: 20px;
+  line-height: 2;
+  background-color: #ffa300;
+  color: #2d3d54;
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+.DIGITAL {
+  font-family: Futura LT Medium;
+  font-size: 25px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+
+.moviepic {
+  margin-right: 60px;
+  max-width: 100%;
+}
+.movinfo {
+  font-size: 15px;
+  font-family: Futura LT Medium;
+  width: 450px;
+  line-height: 1.6;
+  color: #999999;
+  text-align: left;
+  margin-right: 90px;
+  margin-top: 10px;
+}
+
+/* Third page */
+.all3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.Confirm {
+  font-family: Futura LT ExtraBold;
+  font-size: 20px;
+  text-align: center;
+  color: #ffa300;
+  margin-left: 30px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.a {
+  color: #2d3d54;
+}
+h5 {
+  font-family: Futura LT Medium;
+  font-size: 30px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding: 10px 0 0 5px;
+  max-width: 100%;
+}
+h3 {
+  font-family: Futura LT Medium;
+  font-size: 20px;
+  text-align: left;
+  color: #999999;
+  margin-left: 15px;
+  padding: 0 0 0px 45px;
+  max-width: 100%;
+}
+h4 {
+  font-family: Futura LT Medium;
+  font-size: 15px;
+  text-align: left;
+  color: #999999;
+  margin-left: 15px;
+  margin-top: 2px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.exp {
+  font-family: Futura LT Medium;
+  font-size: 15px;
+  text-align: left;
+  color: #999999;
+  margin-left: 15px;
+  margin-top: 2px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.buyticket {
+  font-family: Futura LT Medium;
+  font-size: 20px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+.ticketinfo {
+  font-family: Futura LT Medium;
+  font-size: 15px;
+  text-align: left;
+  color: #ffa300;
+  margin-left: 15px;
+  margin-top: 5px;
+  padding: 10px 0 2px 45px;
+  max-width: 100%;
+}
+/* Forth page */
+.done {
+  font-family: Futura LT Medium;
+  font-size: 25px;
+  text-align: center;
+  color: #ffa300;
+  margin-top: 300px;
+}

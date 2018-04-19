@@ -1,0 +1,10 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+.showtime {
+  font-family: Futura LT ExtraBold;
+  font-size: 80px;
+  color: #ffa300;
+  padding: 15px 0 10px 10px;
+  text-align: center;
+}
