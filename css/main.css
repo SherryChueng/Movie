@@ -237,7 +237,19 @@ h2 {
   margin-right: 90px;
   margin-top: 10px;
 }
-
+.back {
+  color: #999999;
+  font-size: 20px;
+  font-family: Futura LT Medium;
+  text-align: center;
+}
+.back2 {
+  color: #999999;
+  font-size: 20px;
+  font-family: Futura LT Medium;
+  text-align: center;
+  margin-top: 100px;
+}
 /* Third page */
 .all3 {
   display: grid;
